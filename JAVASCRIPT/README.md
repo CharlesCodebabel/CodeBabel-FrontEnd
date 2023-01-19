@@ -17,4 +17,4 @@ ___
 ___
 ### PrismJS Hilight Syntax ( PrismJS Usage )
 ___
-* 📁 [PrismJS Usage](https://prismjs.com/)
+* 📁 [PrismJS Usage](https://github.com/CharlesCodebabel/CodeBabel-FrontEnd/tree/main/JAVASCRIPT/PrismHilightSyntax)
