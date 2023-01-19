@@ -1,0 +1,85 @@
+<!DOCTYPE html><!-- Created by CodeBabel FrontEnd ~ 202x -->
+<html lang="en-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout/cbbl.core.css">
+    <link rel="stylesheet" href="layout/prism.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <script src="app/prism.js"></script>
+    <script src="app/cbbl.app.js"></script>
+<title>CodeBabel ~ No Save</title>
+</head>
+<body>
+    <header>
+        <h1><img src="assets/cbbl_logo_200.png" title="CodeBabel Logo" width="100" height="100"></h1>
+        <h1>Prism Hilight Syntax</h1>
+    </header>
+<main>
+<pre name="card1"><!--Card1-->
+<div id="code-lang-tag" onclick="Msg();"><img src="assets/py_logo.png" width="30" height="30" title="Python"></div>
+<code  class="language-python">
+#start aplication
+import requests
+
+#_input get url
+fvc = str(input('URL Favicon site : '))
+img_url = fvc
+
+#__requests > image data
+img_data = requests.get(img_url).content
+with open('favicon.jpg', 'wb') as handler:
+    handler.write(img_data)    #write data
+    print(f'\nURL: {img_url}') #print url
+    print('Download sucess!')
+#complete message...
+
+#start aplication
+import requests
+
+#_input get url
+fvc = str(input('URL Favicon site : '))
+img_url = fvc
+
+#__requests > image data
+img_data = requests.get(img_url).content
+with open('favicon.jpg', 'wb') as handler:
+    handler.write(img_data)    #write data
+    print(f'\nURL: {img_url}') #print url
+    print('Download sucess!')
+#complete message...
+</code>
+</pre><!--End card1-->
+<pre name="card2"><!--Card2-->
+<div id="code-lang-tag" onclick="CssMsg();"><img src="assets/logo_css3.png" width="30" height="30" title="Css"></div>
+<code  class="language-css">
+/* Css example ~ ColorRoot */
+
+:root {
+    --cl-y01:#F4D03F;
+    --cl-y02:#F1C40F;
+}
+
+html {
+    width: 100%;
+    min-height: 650px;
+    height: fit-content;
+}
+        
+body {
+    background-color: linear-gradient(#2C3E50, #cd32cd);
+    background-attachment: fixed;
+}
+</code>
+</pre><!--End card2-->
+</main>
+    <footer>
+        <object data="svg" class="prism-logo-svg">
+            <img src="assets/cbbl_logo_200.png" title="Logo CodeBabel" width="30" height="30">
+            <h5>Prism &reg; Hilight Syntax ~ Usage 202x</h5>
+            <img src="assets/logo.svg" title="Prism Logo" width="30" height="30">
+        </object> 
+    </footer>
+</body>
+</html>
