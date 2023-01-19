@@ -18,6 +18,6 @@ ___
 ___
 ### FrontEnd ( HTML5/CSS3/JS )
 ___
-* 📁 [HTML5](https://prismjs.com/)
+* 📁 [HTML5](https://github.com/CharlesCodebabel/CodeBabel-FrontEnd/tree/main/HTML5)
 * 📁 [CSS3](https://github.com/CharlesCodebabel/CodeBabel-FrontEnd/tree/main/CSS3)
-* 📁 [JAVASCRIPT](https://prismjs.com/)
+* 📁 [JAVASCRIPT](https://github.com/CharlesCodebabel/CodeBabel-FrontEnd/tree/main/JAVASCRIPT)
